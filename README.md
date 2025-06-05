@@ -1,5 +1,5 @@
 # LunarLoc
-Data and replay utilities for [LunarLoc]().
+Data and replay utilities for [LunarLoc]() (link will be posted by end of June 2025).
 
 # Datasets
 Seventeen individual traverses are provided in two data formats: `.csv` and `.lac`.
