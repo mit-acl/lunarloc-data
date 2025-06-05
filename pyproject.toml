@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lunarloc"
+version = "0.1.0"
+description = "Data and python utilities for LunarLoc"
+authors = [
+    { name="Robaire Galliath", email="galliath.robaire@gmail.com" },
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "pandas",
+    "pillow",
+    "toml",
+]
+
+[tool.hatch.build.targets.sdist]
+packages = ["src/lunarloc"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lunarloc"]
