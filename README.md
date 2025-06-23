@@ -1,5 +1,5 @@
 # LunarLoc
-Data and replay utilities for [LunarLoc](https://arxiv.org/abs/2506.16940).
+Data and replay utilities for [LunarLoc](https://arxiv.org/abs/2506.16940), accepted to the RSS 2025 Workshop on Resilient Off-road Autonomous Robotics.
 
 # Datasets
 Seventeen individual traverses are provided in two data formats: `.csv` and `.lac`.
